@@ -1,0 +1,5 @@
+with tmp as (
+select itemid,itemname from product
+)
+select * from tmp
+
